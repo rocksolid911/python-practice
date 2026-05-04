@@ -1,0 +1,15 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "C:/Users/siddh/anaconda3/envs/python-practice/python.exe",
+    "terminal.integrated.defaultProfile.windows": "PowerShell (python-practice)",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell (python-practice)": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "conda activate python-practice"
+            ]
+        }
+    }
+}
